@@ -33,7 +33,7 @@ Developed a C++ application for user login and registration with OTP (One-Time P
 1. **Compile the Code:**  
    Use the following command to compile the code, linking the `curl` library:
    ```bash
-   g++ -o main loginRegistration.cpp -lcurl
+   g++ -std=c++11 -o main loginRegistration.cpp -lcurl   
    ```
 
 2. **Execute the Application:**  
