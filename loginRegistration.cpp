@@ -17,9 +17,9 @@ bool sendEmail(const std::string& recipient, const std::string& otp) {
     CURL* curl;
     CURLcode res;
 
-    std::string apiKey = "3be9f2e79aaf765df2472b68d65853a1";  
-    std::string apiSecret = "527ec1974b2e9a8559b3c7b6f98031d5"; 
-    std::string fromEmail = "tushar021508@gmail.com"; 
+    std::string apiKey = "";  
+    std::string apiSecret = ""; 
+    std::string fromEmail = ""; 
     std::string subject = "Your OTP Code";
     std::string content = "Your OTP is: " + otp;
 
